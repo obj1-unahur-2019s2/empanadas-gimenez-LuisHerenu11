@@ -24,3 +24,9 @@ object gimenez {
 	method dinero() { return dinero }
 	method pagarA( empleado ) { dinero -= empleado.sueldo() }
 }
+
+object susini {
+	var horasPorSemanaTrabajadas = 50
+	var montoPorHora = 10
+	method sueldo() = montoPorHora*horasPorSemanaTrabajadas
+}
